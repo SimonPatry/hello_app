@@ -1,3 +1,6 @@
+production:
+  secret_key_base: "abcède"
+
 test:
   service: Disk
   root: <%= Rails.root.join("tmp/storage") %>
